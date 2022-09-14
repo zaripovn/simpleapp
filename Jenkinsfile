@@ -6,7 +6,8 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('error') {
+      agent any
       steps {
         echo 'Hello world!'
       }
